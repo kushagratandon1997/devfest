@@ -21,7 +21,7 @@ app.use('/admin',admin);
 app.use('/employee',employee);
 app.use('/reciept',reciept);
 
-mongoose.connect('mongodb://Deathadder:1516@ds127564.mlab.com:27564/devfest',{useMongoClient:true},(err,db)=>{
+mongoose.connect('mongodb://Deathadder:********@ds127564.mlab.com:27564/devfest',{useMongoClient:true},(err,db)=>{
 	if(err){
 		console.log('MongoDb Connection Error.');
 		process.exit(0);
